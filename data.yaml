@@ -1,0 +1,11 @@
+# data.yaml
+# NOTE: adjust 'path' to your actual project folder location
+# NOTE: if Roboflow's own data.yaml came with your download, use that
+# instead — it'll already have the correct nc/names for your dataset.
+
+path: C:/Users/khadija/Downloads/drone_vlm_project/drone_vlm_project  # project root
+train: train/images
+val: valid/images
+
+nc: 2
+names: ['Drone','Bird']    # change to match your dataset's actual class names
